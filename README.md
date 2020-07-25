@@ -20,7 +20,7 @@ Hex cluster backend service, to handle COVID-19 hex. Currently all hex are in me
 
 The REST API to the Hex-cluster application is described below.
 
-## Add Node
+## Add node in cluster
 
 `POST /cluster/node`
 
@@ -41,7 +41,7 @@ Response :
            colEvenOrOrdd: <<node on even or col row>>
          }
 
-## Get Neighbours
+## Get neighbours
 
 `GET /cluster/node`
 
@@ -60,3 +60,24 @@ Response:
 	   },
  	   ...
 	]
+
+## Delete node from cluster
+
+`DELETE /cluster/node`
+
+Request Params
+	
+	name: <<string | send name of node which need to delete>>
+	
+Response:
+	
+	true
+	
+	or 
+Exception: 
+	
+	status: 400
+	{
+		title: <<string>>,
+		message: <<string | error message>>
+	}
