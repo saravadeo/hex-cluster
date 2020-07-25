@@ -40,3 +40,23 @@ Response :
             name: <<string>>
             colEvenOrOrdd: <<node on even or col row>>
          }
+
+## Get Neighbours
+
+`GET /cluster/node`
+
+Request Params
+	
+	name: <<string | send name of node for which we need to fetch neighbours>>
+
+Response:
+
+	[
+	   {
+	      "x":0,
+              "y":-1,
+              "name":"az",
+              "colEvenOrOrdd":0
+	   },
+ 	   ...
+	]
