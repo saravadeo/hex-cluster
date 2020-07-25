@@ -35,10 +35,10 @@ Request Body:
 Response : 
          
          {
-            x: <<coordinate x | number>>,
-          y: <<coordinate y | number>>
-          name: <<string>>
-          colEvenOrOrdd: <<node on even or col row>>
+           x: <<coordinate x | number>>,
+           y: <<coordinate y | number>>
+           name: <<string>>
+           colEvenOrOrdd: <<node on even or col row>>
          }
 
 ## Get Neighbours
