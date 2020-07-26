@@ -22,6 +22,8 @@ The REST API to the Hex-cluster application is described below.
 
 ## Add node in cluster 
 (*Note- Default cluster existing node is "ax" )
+
+
 `POST /cluster/node`
 
 Request Body:
