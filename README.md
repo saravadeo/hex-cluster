@@ -20,8 +20,8 @@ Hex cluster backend service, to handle COVID-19 hex. Currently all hex are in me
 
 The REST API to the Hex-cluster application is described below.
 
-## Add node in cluster
-
+## Add node in cluster 
+(*Note- Default cluster existing node is "ax" )
 `POST /cluster/node`
 
 Request Body:
